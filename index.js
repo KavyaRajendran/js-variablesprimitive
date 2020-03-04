@@ -110,19 +110,19 @@ console.log(text)
 //For verfication or confirmation
 //output Confirm
 //confirm("Confirm");
-//converts the object arguments(string) to number
+//converts the object arguments(string) to number returns NaN if not number
 //output 12
 var  num_1 = "12";
 var f_num = 123;
 
-var new_num = console.log(Number(num_1))
+console.log(Number(num_1))
 //returns true or false based on the input
 //output false
 console.log(isNaN(num_1))
 //returns the value after decimal point
 //output 123.44
 console.log(parseFloat("123.44 hello"))
-//returns the value ignoring the decimal point
+//returns the first entered value ignoring the decimal point and string
 //output 40
 console.log(parseInt("40.3 years"))
 //returns string value for the Boolean value
