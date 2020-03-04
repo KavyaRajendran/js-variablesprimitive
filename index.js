@@ -69,7 +69,7 @@ var num = 532194;
 //converts number to string
 //output 532194
 console.log(num.toString())
-//converts to exp type
+//converts to exponential type
 //output 5.32e+5
 console.log(num.toExponential(2))
 //
