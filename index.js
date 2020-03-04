@@ -82,6 +82,54 @@ console.log(num.toFixed(2))
 
 /*----------------------------------------------------------------*/
 
-//GLOBAL VARIABLES
+//GLOBAL METHODS
 
-alert
+let text = 'hello';
+
+//displays the error message in red color
+//output hello
+console.error(text)
+//displays the information as text
+//hello
+console.info(text)
+//creates a array of table in console
+//
+console.table(["Kavya","Rajendran","48"])
+//Warning in yellow color
+//output hello
+console.warn(text)
+//prints the normal string
+//output hello
+console.log(text)
+//A popup displaays showing alert
+//output This is an alert
+//var ale_rt = alert("This is an alert");
+//asks for information before displaying the page
+//This is a prompt
+//var pro_mpt = prompt("This is a prompt");
+//For verfication or confirmation
+//output Confirm
+//confirm("Confirm");
+//converts the object arguments(string) to number
+//output 12
+var  num_1 = "12";
+var f_num = 123;
+
+var new_num =console.log(Number(num_1))
+//returns true or false based on the input
+//output false
+console.log(isNaN(num_1))
+//returns the value after decimal point
+//output 123.44
+console.log(parseFloat("123.44 hello"))
+//returns the value ignoring the decimal point
+//output 40
+console.log(parseInt("40.3 years"))
+//returns string value
+//output true
+console.log(String(Boolean(1))
+//returns the value as true or false based on condition
+//
+console.log(Boolean(10<9))
+
+
