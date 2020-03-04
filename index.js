@@ -115,7 +115,7 @@ console.log(text)
 var  num_1 = "12";
 var f_num = 123;
 
-var new_num =console.log(Number(num_1))
+var new_num = console.log(Number(num_1))
 //returns true or false based on the input
 //output false
 console.log(isNaN(num_1))
@@ -125,11 +125,12 @@ console.log(parseFloat("123.44 hello"))
 //returns the value ignoring the decimal point
 //output 40
 console.log(parseInt("40.3 years"))
-//returns string value
+//returns string value for the Boolean value
 //output true
-console.log(String(Boolean(1))
+console.log(String(Boolean(1)))
 //returns the value as true or false based on condition
-//
-console.log(Boolean(10<9))
+//output true
+console.log(Boolean(10>9))
+
 
 
