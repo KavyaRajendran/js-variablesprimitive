@@ -64,14 +64,19 @@ console.log(note.toUpperCase())
 //output this is space
 console.log(b.trim())
 
+/*----------------------------------------------------------------*/
+
 //NUMBER-METHODS
-var num = 532194;
+
+
+var num = 5321.946;
 //converts number to string
 //output 532194
 console.log(num.toString())
-//converts to exponential type
-//output 5.32e+5
-console.log(num.toExponential(2))
-//
-//
+//converts to exponential type increases by 1
+//output 5.32e+3
+console.log(num.toExponential(3))
+//fixes the value as specified increments if value greater than 5
+//output 5321.9
+console.log(num.toFixed(2))
 
