@@ -73,10 +73,15 @@ var num = 5321.946;
 //converts number to string
 //output 532194
 console.log(num.toString())
-//converts to exponential type increases by 1
+//converts to exponential type increases by 1 after decimal
 //output 5.32e+3
 console.log(num.toExponential(3))
 //fixes the value as specified increments if value greater than 5
-//output 5321.9
+//output 5321.95
 console.log(num.toFixed(2))
 
+/*----------------------------------------------------------------*/
+
+//GLOBAL VARIABLES
+
+alert
